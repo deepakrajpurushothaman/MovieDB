@@ -7,7 +7,7 @@ $(document).ready(() => {
 });
 
 function getMovies(searchText){
-  axios.get('https://movie-database-imdb-alternative.p.rapidapi.com?s='+searchText)
+  axios.get('https://rapidapi.com?s='+searchText)
     .then((response) => {
       console.log(response);
       let movies = response.data.Search;
@@ -40,7 +40,7 @@ function movieSelected(id){
 function getMovie(){
   let movieId = sessionStorage.getItem('movieId');
 
-  axios.get('https://movie-database-imdb-alternative.p.rapidapi.com?i='+movieId)
+  axios.get('https://rapidapi.com?i='+movieId)
     .then((response) => {
       console.log(response);
       let movie = response.data;
