@@ -1,6 +1,6 @@
-# MovieInfo App
+# Deepak Movie App
 
-JavaScript/jQuery app that fetches movie data from the OMDb API
+JavaScript/jQuery app that fetches movie data from the IMDb API
 
 ## Usage
 
